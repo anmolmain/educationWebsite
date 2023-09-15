@@ -1,0 +1,37 @@
+.myClr {
+    background-color: rgb(11, 43, 102);
+}
+.mini{
+    padding: -10px;
+    margin-top: -20px;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 10px;
+    text-align: right;
+    color: white;
+}
+
+.title {
+    /* font-size: px; */
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Lora', serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.restOptions {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right: 10%;
+    font-weight: 550;
+    font-size: 15px;
+    display: flex;
+    float: right;
+    margin-bottom: -1vw;
+}
+
+.itemInside {
+    letter-spacing: 1px;
+    padding-left: 2vw;
+    color: white;
+    
+}

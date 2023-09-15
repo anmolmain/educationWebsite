@@ -1,0 +1,104 @@
+.fullDiv {
+    position: absolute;
+    background-color: rgb(11, 43, 102);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.ResAndIns {
+    background-color: rgb(11, 43, 102);
+}
+
+.imgageDiv {
+    margin: auto;
+    /* animation: anm 3s linear infinite; */
+    border-radius: 10%;
+}
+
+#FooterHeading {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+    background-color: rgb(11, 43, 102);
+    margin-bottom: 0px;
+    padding-top: 2vh;
+}
+
+.breakLine {
+    background-color: white;
+}
+
+
+#divImg {
+    width: 100%;
+    padding: 3%;
+    padding-right: 0%;
+    border-radius: 50px;
+
+    /* height: 30vh; */
+}
+
+.TextDiv {
+    display: flex;
+}
+
+.AboutUsTextFooter {
+    font-size: 0.8rem;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    font-weight: 100;
+}
+
+.myHrTag {
+    color: white;
+    background-color: white;
+}
+
+#VerticalHrTag {
+    background-color: white;
+    width: 1px;
+    height: 95%;
+    margin: auto;
+}
+
+.AboutUsHeadingFooter {
+    margin-top: 2vh;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left
+}
+
+.bottomLayer {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: small;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(11, 43, 102);
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.myLinks {
+    margin-top: 4%;
+    /* border: 8px solid green; */
+    justify-content: center;
+    align-items: center;
+}
+
+.imageLinks {
+    display: flex;
+    /* border: 5px solid; */
+}
+
+.linkedImages {
+    width: 20%;
+    background-color: white;
+    border-radius: 50%;
+}

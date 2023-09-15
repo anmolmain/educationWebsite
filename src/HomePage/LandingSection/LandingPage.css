@@ -1,0 +1,92 @@
+.mainDivLanding {
+    background-color: rgb(11, 43, 102);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.svgImage {
+    margin-top: -2vh;
+    rotate: 180deg;
+}
+
+#div1Text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 55px;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-weight: 600;
+    margin-left: 8vw;
+    margin-top: 2vw;
+
+}
+
+#fLogo {
+    /* border: 5px solid black; */
+    width: 25vw;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 8vw;
+    margin-top: 2vw;
+    border-radius: 10%;
+    /* width: 40px; */
+    animation: anm 3s linear infinite;
+}
+
+@keyframes anm {
+    0% {
+        box-shadow: 0px 0px 1px white;
+    }
+
+    25% {
+        box-shadow: 0px 0px 10px white;
+    }
+
+    50% {
+        box-shadow: 0px 0px 20px white;
+    }
+
+    75% {
+        box-shadow: 0px 0px 10px white;
+    }
+
+    0% {
+        box-shadow: 0px 0px 1px white;
+    }
+
+}
+
+.landingText {
+    /* border: 5px solid white; */
+    padding: 0px;
+    margin: 0px;
+}
+
+#div1TMiniext {
+    color: white;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 2vw;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.div2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* margin: auto; */
+
+}
+
+.div2 img {
+    max-width: 120%;
+    max-height: 120%;
+    width: auto;
+    height: auto;
+    /* transform: rotate(-5deg); */
+    /* margin: auto; */
+}

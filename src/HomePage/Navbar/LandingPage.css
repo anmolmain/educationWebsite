@@ -1,0 +1,55 @@
+.mainDivLanding {
+    background-color: rgb(11, 43, 102);
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.svgImage{
+    margin-top: -10px;
+    rotate: 180deg;
+}
+.div1 {
+    /* overflow: ; */
+    /* width: 65vw;
+    height: 50vh; */
+    /* border: 5px solid black; */
+}
+
+#div1Text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-weight: 600;
+    margin-left: 8vw;
+    margin-top: 1vw;
+}
+
+#div1TMiniext {
+    color: white;
+    font-size: 10px;
+    text-align: left;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 1vw;
+
+}
+
+.div2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* margin: auto; */
+
+}
+
+.div2 img {
+    max-width: 120%;
+    max-height: 120%;
+    width: auto;
+    height: auto;
+    /* transform: rotate(-5deg); */
+    /* margin: auto; */
+}
