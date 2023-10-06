@@ -13,7 +13,6 @@ import ReactCourse from "./CoursesFolder/React/ReactCourse";
 import ExpressCourse from "./CoursesFolder/Express/ExpressCourse";
 import NodeJsCourse from "./CoursesFolder/NodeJs/NodeJsCourse";
 import NextJsCourse from "./CoursesFolder/NextJs/NextJsCourse";
-import ThreeJsData from "./CoursesFolder/ThreeJs/ThreeJsData";
 import ThreeJsCourse from "./CoursesFolder/ThreeJs/ThreeJsCourse";
 import Web3jsCourse from "./CoursesFolder/Web3js/Web3jsCourse";
 import JqueryCourse from "./CoursesFolder/Jquery/JqueryCourse";
