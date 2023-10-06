@@ -15,10 +15,7 @@ const HomePage = () => {
       <Adv />
       <Special />
       <Cara />
-      <div className="container">
-        <MostPopText />
-
-      </div>
+      <MostPopText />
       <PopularCourses />
       <Footer />
     </div>

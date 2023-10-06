@@ -18,12 +18,12 @@
 
 }
 
-#advDiv img:hover {
+/* #advDiv img:hover {
   position: relative;
   transition: 0.3s;
   top: -10px;
   box-shadow: 1px 1px  20px rgb(2, 52, 126);
-}
+} */
 
 #advDiv::-webkit-scrollbar {
   width: 15px;
