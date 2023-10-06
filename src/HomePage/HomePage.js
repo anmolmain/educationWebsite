@@ -5,15 +5,22 @@ import Adv from './AdvSection/Adv.js'
 import Special from './OurSpecialSection/Special.js'
 import PopularCourses from './PopularCourses/PopularCourses.js'
 import Footer from './Footer/Footer.js'
+import Cara from './Cara/Cara.jsx'
+import { MostPopText } from './PopularCourses/MostPopText.jsx'
 const HomePage = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <LandingPage />
-      <Adv/>
-      <Special/>
-      <PopularCourses/>
-      <Footer/>
+      <Adv />
+      <Special />
+      <Cara />
+      <div className="container">
+        <MostPopText />
+
+      </div>
+      <PopularCourses />
+      <Footer />
     </div>
   )
 }

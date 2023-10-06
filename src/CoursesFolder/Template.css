@@ -1,0 +1,53 @@
+#moveToTopBtn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(15, 101, 229);
+    outline: none;
+    border: none;
+    scale: 0.8;
+    transition: 0.2s;
+    font-size: 100px;
+    font-weight: 900;
+    color: white;
+}
+
+.btnDiv {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 90%;
+    top: 90%;
+    z-index: 1;
+
+}
+
+#moveToTopBtn:hover {
+    scale: 1;
+    background-color: rgb(11, 68, 154);
+
+}
+
+#moveToTopBtn {
+    /* background-image: url('https://img.freepik.com/free-vector/modern-up-down-arrow-design_1017-9652.jpg?size=626&ext=jpg&ga=GA1.1.348035570.1694454835&semt=ais'); */
+    background-image: url('https://img.freepik.com/free-vector/leadership-business-concept-with-arrow-flying-through-clouds_1017-10552.jpg?w=826&t=st=1696623140~exp=1696623740~hmac=09bf2df7ceb68b1836f10b0bb54f3986e7e784e7ec98815232cad60faed5b401');
+    background-size: 140%;  
+    background-position: -20px -10px; 
+}
+
+.copyTextDiv {
+    position: relative;
+
+}
+
+#copyTextBtn {
+    font-size: medium;
+    background-color: rgb(178, 177, 177);
+    outline: none;
+    border: none;
+    right: 0;
+    position: absolute;
+}
+
+#copyTextBtn:hover {
+    background-color: rgb(148, 148, 148);
+}

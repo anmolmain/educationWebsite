@@ -1,15 +1,16 @@
 import React from 'react'
 import './Navbar.css'
+import { Link } from 'react-router-dom'
 const Navbar = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light myClr">
-                <a className="navbar-brand title " href="#">
+                <Link to='/' className="navbar-brand title " href="#">
                     <div>
-                    <p className='itemInside'>Cheat Sheet Mania</p>
-                    <p className='mini'>... Believe in Qulaity</p>
+                        <p className='itemInside'>Cheat Sheet Mania</p>
+                        <p className='mini'>... Believe in Qulaity</p>
                     </div>
-                </a>
+                </Link>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -25,29 +26,30 @@ const Navbar = () => {
                     <div className="restOptions ml-auto">
                         <ul className="navbar-nav ">
                             <li className="nav-item active">
-                                <a className="nav-link" href="#">
+                                <Link className="nav-link" to="/home">
                                     <p className='itemInside'>Home <span className="sr-only">(current)</span></p>
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" href="#">
+                                <Link className="nav-link active" to="/courses">
                                     <p className='itemInside'>Courses</p>
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" href="#">
+                                <Link className="nav-link active" to="/digitalNotes">
                                     <p className='itemInside'>Digital Notes</p>
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" href="#">
+                                <Link className="nav-link active" to="/contact">
                                     <p className='itemInside'>Contact</p>
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+            
         </div>
     )
 }

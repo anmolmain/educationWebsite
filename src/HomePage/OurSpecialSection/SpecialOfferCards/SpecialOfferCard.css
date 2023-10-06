@@ -15,7 +15,16 @@
     margin: 2vw;
     box-shadow: 1px 1px 25px gray;
     border-radius: 5%;
-    /* border: 2px solid black; */
+    transition: 0.3s;
+    scale: 0.9;
+}
+
+.mainCard:hover {
+    position: relative;
+    transition: 0.3s;
+    scale: 1;
+    box-shadow: 1px 1px 20px rgb(2, 52, 126);
+
 }
 
 #titleText {
@@ -34,7 +43,8 @@
     font-size: 90%;
     text-align: center;
 }
-#SpecialOfferLinks{
+
+#SpecialOfferLinks {
     color: black;
     text-decoration: none;
 }

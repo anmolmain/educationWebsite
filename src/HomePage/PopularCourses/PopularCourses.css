@@ -14,15 +14,24 @@
 
 .cardCourse {
     background-color: white;
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: center;
     padding: 1%;
     box-shadow: 1px 1px 15px 5px rgb(47, 47, 47);
     border-radius: 15px;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
     margin-left: 35px;
+    margin-right: 35px;
     min-width: 300px;
     min-height: 55 0px;
+    scale: 0.9;
+    transition: 0.2s;
+}
+
+.cardCourse:hover {
+    position: relative;
+    scale: 1;
+    transition: 0.2s;
 }
 
 #cHeading {
@@ -57,7 +66,7 @@
     background-color: rgb(38, 84, 162);
     outline: none;
     border: none;
-    width: 35%;
+    width: 30%;
     font-size: x-large;
     font-weight: 500;
     font-family: 'Josefin Sans', sans-serif;
@@ -68,29 +77,33 @@
 }
 
 .mybtn:hover {
-    width: 60%;
-    font-size: xx-large;
+    width: 100%;
+    font-size: x-large;
     font-weight: 900;
     transition-duration: 0.1s;
     background-color: rgb(10, 43, 102);
 }
-.mainDivCourse::-webkit-scrollbar{
+
+.mainDivCourse::-webkit-scrollbar {
     width: 15px;
     height: 15px;
 }
-.mainDivCourse::-webkit-scrollbar-thumb{
+
+.mainDivCourse::-webkit-scrollbar-thumb {
     background-color: rgb(38, 84, 162);
     border-radius: 50%;
     width: 15px;
     height: 15px;
 }
-.mainDivCourse::-webkit-scrollbar-thumb:hover{
+
+.mainDivCourse::-webkit-scrollbar-thumb:hover {
     background-color: rgb(10, 43, 102);
     border-radius: 50%;
     width: 15px;
     height: 15px;
 }
-.mainDivCourse::-webkit-scrollbar-track{
+
+.mainDivCourse::-webkit-scrollbar-track {
     background-color: #f1f1f1;
     border-radius: 50%;
     width: 15px;
