@@ -1,0 +1,26 @@
+.digitalNotesDiv {
+    background-color: rgb(11, 43, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    width: 60%;
+    position: absolute;
+    padding: 3%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    margin-top: 4%;
+}
+.digitalNotesDiv img{
+    width: 50%;
+    border-radius: 50%;
+}
+.imgDiv{
+    /* border: 5px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom:3% ;
+
+}

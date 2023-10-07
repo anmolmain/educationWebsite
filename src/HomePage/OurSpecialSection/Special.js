@@ -9,7 +9,7 @@ const Special = () => {
                     <p id='SpecialOfferText'>
                         Our Special Features for you
                     </p>
-                    <p id='specialOfferMiniText'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores asperiores illo nisi nostrum accusamus? Quibusdam fugit expedita consequuntur possimus alias, aliquam consectetur ipsum, ab voluptas hic veniam vitae fugiat debitis!
+                    <p id='specialOfferMiniText'>Don't miss our limited-time special offer! Unlock exclusive access to premium cheatsheets and supercharge your tech skills. Elevate your coding game with our expertly crafted resources. Upgrade now and stay ahead!
                     </p>
                     <br />
                 </div>

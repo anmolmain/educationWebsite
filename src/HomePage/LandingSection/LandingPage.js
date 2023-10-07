@@ -14,7 +14,7 @@ export const LandingPage = () => {
                     <div className="landingText">
                         <p id="div1Text">Find your course ,<br />Change the way you Learn</p>
                         <hr className='myHrTag' style={{ width: "50%",}} />
-                        <p id="div1TMiniext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsam quos doloremque, corrupti tenetur iusto voluptas rerum atque esse maxime odit reiciendis soluta fuga cum dolorum quibusdam deleniti unde quaerat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsam quos doloremque, corrupti tenetur iusto voluptas rerum atque esse maxime odit reiciendis soluta fuga cum dolorum quibusdam deleniti unde quaerat?</p>
+                        <p id="div1TMiniext">Welcome to our Cheat sheat mania! We provide concise, expertly crafted cheatsheets for a multitude of technologies. Whether you're a newbie or a seasoned pro, our cheatsheets simplify learning and coding. Covering HTML, CSS, JavaScript, React, and more, our quick references are your go-to resources. Elevate your skills, streamline development, and build stellar web apps. Explore our cheatsheets to master tech effortlessly!</p>
                     </div>
                 </div>
                 <div className="div2 col-md-3 col-sm-12">

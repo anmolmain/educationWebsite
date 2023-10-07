@@ -6,7 +6,7 @@ export const MostPopText = () => {
             <div className="HeadingDiv">
                 <h1 id='cHeading'>Most Popular Courses</h1>
                 {/* <h1 id='cHeading'>Portfolio</h1> */}
-                <p id='miniTextCHeading'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non hic, id enim repellendus dolore aperiam </p>
+                <p id='miniTextCHeading'>Explore the most popular career-boosting courses. Master in-demand skills with our top-rated courses and propel your career to new heights.</p>
             </div>
         </div>
     )
