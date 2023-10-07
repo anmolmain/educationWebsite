@@ -14,7 +14,7 @@
 .mainCard {
     margin: 2vw;
     box-shadow: 1px 1px 25px gray;
-    border-radius: 5%;
+    /* border-radius: 5%; */
     transition: 0.3s;
     scale: 0.9;
 }

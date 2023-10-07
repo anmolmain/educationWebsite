@@ -7,20 +7,19 @@ import PopularCourses from './PopularCourses/PopularCourses.js'
 import Footer from './Footer/Footer.js'
 import Cara from './Cara/Cara.jsx'
 import { MostPopText } from './PopularCourses/MostPopText.jsx'
-import Contact from './Navbar/NavbarRouting/Contact.jsx'
+import PeopleReview from '../PeopleReviews/PeopleReview.jsx'
 const HomePage = () => {
   return (
     <div>
-      {/* <Navbar />
+      <Navbar />
       <LandingPage />
       <Adv />
       <Special />
       <Cara />
       <MostPopText />
       <PopularCourses />
-      
-      <Footer /> */}
-      <Contact />
+      <PeopleReview/>
+      <Footer />
     </div>
   )
 }

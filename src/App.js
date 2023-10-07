@@ -39,7 +39,7 @@ function App() {
           <Route path='/courses/threejscourse' element={<ThreeJsCourse />}></Route>
           <Route path='/courses/web3jscourse' element={<Web3jsCourse />}></Route>
           <Route path='/courses/jquerycourse' element={<JqueryCourse />}></Route>
-          <Route path='/*' element={<NotFound404/>}></Route>
+          <Route path='/*' element={<NotFound404 />}></Route>
 
         </Routes>
       </BrowserRouter>

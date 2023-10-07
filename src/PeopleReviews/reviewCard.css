@@ -1,0 +1,40 @@
+.MainCardDivP {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.MainCardDivP::-webkit-scrollbar {
+    width: 10px;
+    height: 19px;
+}
+
+.cardDiv {
+    margin: 3%;
+    padding: 1%;
+    /* border: 5px solid black; */
+    min-width: 33vw;
+    text-align: center;
+    box-shadow: 1px 1px 10px black;
+}
+
+.imageDivP img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.imageDivP {
+    margin: auto;
+}
+
+.textFIelds p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(78, 78, 78);
+    font-size: medium;
+}
+
+#itemHead {
+    font-size: x-large;
+    color: rgb(33, 33, 33);
+    font-weight: 600;
+}

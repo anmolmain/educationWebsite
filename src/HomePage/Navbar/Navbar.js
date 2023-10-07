@@ -40,11 +40,11 @@ const NavBar = () => {
                                 <p className='itemInside'>Digital Notes</p>
                             </Link>
                         </li>
-                        {/* <li className="nav-item active">
+                        <li className="nav-item active">
                             <Link className="nav-link active" to="/contact">
                                 <p className='itemInside'>Contact</p>
                             </Link>
-                        </li> */}
+                        </li>
                     </ul>
                 </div>
             </nav>
