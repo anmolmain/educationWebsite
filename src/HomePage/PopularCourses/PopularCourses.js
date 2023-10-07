@@ -82,18 +82,29 @@ const PopularCourses = (props) => {
     const { val } = props;
     const dataArr2 = (val === 'dispAll') ? dataArr : dataArr.slice(0, 5);
     return (
-        <div className='mainDivCourse'>
-            {dataArr2.map((item) => (
-                <div className="cardCourse">
-                    <img src={item.cImg} className='courseImg' alt="" />
-                    <hr /><p className="Ctitle">{item.cName}</p>
-                    <hr /><input type="button" onClick={() => {
-                        var x = item.cLink
-                        nv('/courses/' + x)
-                    }} className='mybtn' value="Click" />
-                </div>
-            ))}
-        </div>
+        <>
+            <div className='mainDivCourse'>
+                {dataArr2.map((item) => (
+                    <div className="cardCourse">
+                        <img src={item.cImg} className='courseImg' alt="" />
+                        <hr /><p className="Ctitle">{item.cName}</p>
+                        <hr /><input type="button" onClick={() => {
+                            var x = item.cLink
+                            nv('/courses/' + x)
+                        }} className='mybtn' value="Click" />
+                    </div>
+                ))}
+            </div>
+            <br />
+            <div className="enclosedButton">
+                <button id='exploreButton' onClick={()=>{
+                    nv('/courses')
+                }}>
+                    <div className='exploreMore'>Explore more Courses</div>
+                </button>
+            </div>
+        </>
+
     )
 }
 
