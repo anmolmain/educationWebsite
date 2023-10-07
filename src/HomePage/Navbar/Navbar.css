@@ -1,7 +1,14 @@
+* {
+    scroll-padding: 0px;
+
+}
+
 .myClr {
     background-color: rgb(11, 43, 102);
+    color: white;
 }
-.mini{
+
+.mini {
     padding: -10px;
     margin-top: -20px;
     font-family: cursive;
@@ -33,5 +40,5 @@
     letter-spacing: 1px;
     padding-left: 2vw;
     color: white;
-    
+
 }
