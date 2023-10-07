@@ -10,7 +10,11 @@ const Courses = () => {
       <Navbar />
       <div className="scrollTemp">
         {dataArr.map((item) => (
-          <img src={item.cImg} alt="" />
+          <button onClick={()=>{
+            nv(item.cLink)
+          }}>
+            <img src={item.cImg} alt="" />
+          </button>
         ))}
       </div>
       {
