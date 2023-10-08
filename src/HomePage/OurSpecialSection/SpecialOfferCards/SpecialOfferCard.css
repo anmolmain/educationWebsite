@@ -22,7 +22,7 @@
 .mainCard:hover {
     position: relative;
     transition: 0.3s;
-    scale: 1;
+    scale: 1.03;
     box-shadow: 1px 1px 20px rgb(2, 52, 126);
 
 }

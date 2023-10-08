@@ -18,7 +18,7 @@ const HomePage = () => {
       <Cara />
       <MostPopText />
       <PopularCourses />
-      <PeopleReview/>
+      <PeopleReview />
       <Footer />
     </div>
   )

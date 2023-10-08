@@ -10,33 +10,37 @@ const Courses = () => {
       <Navbar />
       <div className="scrollTemp">
         {dataArr.map((item) => (
-          <button onClick={()=>{
+          <button onClick={() => {
             nv(item.cLink)
           }}>
             <img src={item.cImg} alt="" />
           </button>
         ))}
       </div>
-      {
-        dataArr.map((item) => (
-          <div className='mainCDiv row'>
-            <div className="col-md-4">
-              <div className="cardC">
-                <img src={item.cImg} className='courseImg' alt="" />
-                <hr /><p className="Ctitle">{item.cName}</p>
-                <hr /><input type="button" className='mybtn' value="Click" onClick={() => {
-                  nv(item.cLink)
-                }} />
+      <br />
+      <div className="CoursesFolder">
+        {
+          dataArr.map((item) => (
+            <div className='mainCDiv row'>
+              <div className="col-md-4">
+                <div className="cardC">
+                  <img src={item.cImg} className='courseImg' alt="" />
+                  <hr /><p className="Ctitle">{item.cName}</p>
+                  <hr /><input type="button" className='mybtn' value="Click" onClick={() => {
+                    nv(item.cLink)
+                  }} />
+                </div>
+              </div>
+              <div className="col-md-7 textBlock">
+                {item.desc}
               </div>
             </div>
-            <div className="col-md-6 textBlock">
-              {item.desc}
-            </div>
-          </div>
-        ))
+          ))
 
-      }
+        }
 
+
+      </div>
     </div>
   )
 }

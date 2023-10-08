@@ -5,6 +5,8 @@
     text-align: center;
     font-weight: 300;
     font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.7px;
+    word-spacing: 0.7px;
 }
 
 #mainDivSpO {
@@ -13,10 +15,10 @@
 
 #SpecialOfferText {
     margin-top: -1vh;
+    font-family: 'Josefin Sans', sans-serif;
     /* border: 5px solid; */
     color: white;
     font-size: 50px;
     text-align: center;
     font-weight: 600;
-    font-family: 'Josefin Sans', sans-serif;
 }

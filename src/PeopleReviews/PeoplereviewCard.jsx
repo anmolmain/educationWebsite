@@ -63,7 +63,7 @@ const reviewdataArr = [
     }
 ];
 
-const reviewdataArr1 = reviewdataArr.slice(0, 5)
+const reviewdataArr1 = reviewdataArr.slice(0, 6)
 
 const PeoplereviewCard = () => {
     return (
@@ -73,10 +73,13 @@ const PeoplereviewCard = () => {
                     <div className='cardDiv'>
                         <div className="imageDivP">
                             <img src={item.pic} alt="" />
+                            <hr />
                         </div>
                         <div className="textFIelds">
                             <h4>{item.sName}</h4>
+                            <hr />
                             <p id='itemHead'>{item.heading}</p>
+                            <hr />
                             <p>{item.desc}</p>
                         </div>
                     </div>

@@ -5,12 +5,17 @@
     color: white;
     font-weight: 600;
     width: 60%;
-    position: absolute;
+    /* position: absolute; */
     padding: 3%;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    margin-top: 4%;
+    /* transform: translate(-50%, -50%); */
+    /* left: 50%; */
+    /* top: 50%; */
+    /* margin-top: 4%; */
+    
+    margin: auto;
+}
+.MainDigitalNotesDiv{
+    display: flex;
 }
 .digitalNotesDiv img{
     width: 50%;

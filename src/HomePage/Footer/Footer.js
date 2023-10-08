@@ -8,7 +8,7 @@ const Footer = () => {
     let tYear = tDate.getFullYear();
     console.log(tYear);
     return (
-        <div><br /><br />
+        <div className='footerDiv'>
             <div className="ResAndIns">
                 <p id='FooterHeading' className='col-12'>Resources and Insigts</p>
             </div>

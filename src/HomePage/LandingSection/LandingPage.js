@@ -5,20 +5,21 @@ import footerLogo from './footerLogo.png'
 export const LandingPage = () => {
     return (
         <div>
-            <div className="mainDivLanding row">
+            <div className="mainDivLandingPage row">
                 <div className="div1 col-md-8 col-sm-12">
-                    <div className="flogoDiv">
-                        <img id='fLogo' src={footerLogo} alt="" />
 
-                    </div>
                     <div className="landingText">
-                        <p id="div1Text">Find your course ,<br />Change the way you Learn</p>
-                        <hr className='myHrTag' style={{ width: "50%",}} />
+                        <p id="div1TextLandingPage">Find your course ,<br />Change the way you Learn</p>
+                        <div className="flogoDiv">
+                            <img className='landingPageLogoPic' src={footerLogo} alt="" />
+                        </div>
+                        <hr className='myHrTag' style={{ width: "50%", }} />
                         <p id="div1TMiniext">Welcome to our Cheat sheat mania! We provide concise, expertly crafted cheatsheets for a multitude of technologies. Whether you're a newbie or a seasoned pro, our cheatsheets simplify learning and coding. Covering HTML, CSS, JavaScript, React, and more, our quick references are your go-to resources. Elevate your skills, streamline development, and build stellar web apps. Explore our cheatsheets to master tech effortlessly!</p>
                     </div>
+
                 </div>
                 <div className="div2 col-md-3 col-sm-12">
-                    <img src={manImage} alt="" />
+                    <img id='LandingPageManPic' src={manImage} alt="" />
                 </div>
             </div>
             <div className="svgImage">

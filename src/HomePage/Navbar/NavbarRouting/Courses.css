@@ -1,16 +1,19 @@
-
+.CoursesFolder{
+    background-color: rgb(11, 43, 102);
+    padding: 2%;
+    
+}
 .mainCDiv {
-    border-radius: 15px;
-    box-shadow: 1px 1px 15px 5px rgb(124, 122, 122);
-    margin: 10%;
-    margin-top: 4%;
+    /* border-radius: 15px; */
+    /* box-shadow: 1px 1px 15px 5px rgb(124, 122, 122); */
+    margin: 6%;
+    margin-top: 4%; 
     background-color: white;
 
 }
 
 .HeadingDiv {
     background-color: rgb(11, 43, 102);
-    ;
     color: white;
     padding: 1vh;
 }
@@ -29,14 +32,22 @@
 }
 
 .textBlock {
-    margin-top: 2%;
     justify-content: center;
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: medium;
     padding: 5%;
     text-align: justify;
+    margin: 2%;
+    background-color: rgb(196, 195, 195);
+    max-height: 500px;
+    overflow-y: scroll;
 }
+.textBlock::-webkit-scrollbar{
+    width: 6px;
+    height: 1px;
+}
+
 
 .scrollTemp {
     display: flex;
@@ -90,4 +101,9 @@
     outline: none;
     border: none;
     border-radius: 50%;
+}
+.myBtn{
+background-color: rgb(11, 43, 102);
+border: 2px solid black;
+    
 }

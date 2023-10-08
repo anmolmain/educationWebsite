@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../../HomePage/Navbar/Navbar'
 import TempLate from '../Template'
-import './HtmlCourse.css'
 import htmlCourseData from './htmlCourseData.js'
 const ExpressCourse = () => {
   return (
