@@ -1,6 +1,5 @@
 import React from 'react'
 import './footer.css'
-import githubLogo from './githubLogo.png'
 import footerLogo from './footerLogo.png'
 
 const Footer = () => {
@@ -50,22 +49,22 @@ const Footer = () => {
                         <div className="row imageLinks">
                             <div className="col-3">
                                 <a href="#">
-                                    <img className='linkedImages' src={githubLogo} alt="" />
+                                    <img className='linkedImages' src="https://img.freepik.com/premium-vector/set-social-media-business-icons_155083-584.jpg?size=626&ext=jpg&ga=GA1.1.348035570.1694454835&semt=ais" alt="" />
                                 </a>
                             </div>
                             <div className="col-3">
                                 <a href="#">
-                                    <img className='linkedImages' src={githubLogo} alt="" />
+                                    <img className='linkedImages' src="https://img.freepik.com/premium-vector/instagram-social-media-icon-gradient-social-media-logo_197792-4682.jpg?size=626&ext=jpg&ga=GA1.1.348035570.1694454835&semt=sph" alt="" />
                                 </a>
                             </div>
                             <div className="col-3">
                                 <a href="#">
-                                    <img className='linkedImages' src={githubLogo} alt="" />
+                                    <img className='linkedImages' src="https://img.freepik.com/premium-vector/red-youtube-logo-social-media-logo_197792-1803.jpg?size=626&ext=jpg&ga=GA1.1.348035570.1694454835&semt=ais" alt="" />
                                 </a>
                             </div>
                             <div className="col-3">
                                 <a href="#">
-                                    <img className='linkedImages' src={githubLogo} alt="" />
+                                    <img className='linkedImages' src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" />
                                 </a>
                             </div>
                         </div>

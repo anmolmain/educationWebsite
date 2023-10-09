@@ -21,7 +21,8 @@ const Adv = () => {
             advRef.current.scrollLeft -= 200;
         }
     }
-    return (<div className='AdvParentDiv row'>
+    return (
+    <div className='AdvParentDiv row'>
         <div className="startBtn col-2 col-md-2 col-lg-1">
             <button onClick={moveToLeft}>&lt;</button>
         </div>

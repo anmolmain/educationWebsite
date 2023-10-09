@@ -27,8 +27,8 @@ const TempLate = (prop) => {
                 console.log(prop.props)
             } */}
             <div className="btnDiv">
-                <button id='moveToTopBtn' onClick={() => { window.scrollTo(0, 0) }}>
-                </button>
+                <button id='moveToTopBtn' onClick={() => { window.scrollTo({top:0,behavior:'smooth'}) }}>
+                    <p>^</p></button>
             </div>
             {
                 prop.props.map((item, key) => (
@@ -43,7 +43,7 @@ const TempLate = (prop) => {
                                 {
                                     item.subtopics.map((item2, subkey) => (
                                         <>
-                                            <h4 key={subkey} style={{ marginLeft: "0%", fontFamily: "'Josefin Sans', sans-serif" ,fontWeight:"700"}}>{item2.subtopic_name}</h4>
+                                            <h4 key={subkey} style={{ marginLeft: "0%", fontFamily: "'Josefin Sans', sans-serif", fontWeight: "700" }}>{item2.subtopic_name}</h4>
                                             <div style={{ backgroundColor: "whitesmoke", width: "90vw" }}>
                                                 <h5 style={{ color: "rgb(110, 110, 110)", padding: "1%", marginLeft: "2%", fontFamily: "sans-serief" }}>
                                                     <div className="codeDiv">

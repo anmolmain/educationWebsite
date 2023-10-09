@@ -11,6 +11,7 @@
 .AdvParentDiv ul {
   scroll-behavior: smooth;
   padding-top: 1%;
+  margin-top: -2%;
 }
 
 #advList {

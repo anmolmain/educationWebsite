@@ -6,7 +6,7 @@
 }
 
 .svgImage {
-    margin-top: -2vh;
+    margin-top: -1vh;
     rotate: 180deg;
 }
 
@@ -135,15 +135,15 @@
     /* margin: auto; */
 }
 @keyframes scaleOut {
-    00%{scale: 20;}
-    10%{scale: 18;}
-    20%{scale: 16;}
-    30%{scale: 14;}
-    40%{scale: 12;}
-    50%{scale: 10;}
-    50%{scale: 8;}
-    70%{scale: 6;}
-    80%{scale: 4;}
-    90%{scale: 2;}
+    00%{scale: 200;}
+    10%{scale: 180;}
+    20%{scale: 160;}
+    30%{scale: 140;}
+    40%{scale: 120;}
+    50%{scale: 100;}
+    50%{scale: 80;}
+    70%{scale: 60;}
+    80%{scale: 40;}
+    90%{scale: 20;}
     100%{scale: 1;}
 }

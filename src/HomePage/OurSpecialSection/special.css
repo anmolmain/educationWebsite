@@ -1,12 +1,17 @@
 #specialOfferMiniText {
     color: white;
-    margin-top: -12px;
+    margin-top: -12px;  
     font-size: 15px;
     text-align: center;
     font-weight: 300;
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 0.7px;
     word-spacing: 0.7px;
+    margin-bottom: -2px;
+}
+.myMovingSvg{
+    margin-bottom: -20%;
+    /* margin-top: 70%; */
 }
 
 #mainDivSpO {

@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar'
 import { useNavigate } from 'react-router-dom'
-import { dataArr } from '../../PopularCourses/PopularCourses'
+import dataArr from '../../../CoursesFolder/MainCourseData'
 import './Courses.css'
 const Courses = () => {
   const nv = useNavigate();
@@ -13,7 +13,7 @@ const Courses = () => {
           <button onClick={() => {
             nv(item.cLink)
           }}>
-            <img src={item.cImg} alt="" />
+            <img id='topImageHorizontalBar' src={item.cImg} alt="" />
           </button>
         ))}
       </div>

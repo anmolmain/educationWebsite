@@ -17,6 +17,7 @@ import ThreeJsCourse from "./CoursesFolder/ThreeJs/ThreeJsCourse";
 import Web3jsCourse from "./CoursesFolder/Web3js/Web3jsCourse";
 import JqueryCourse from "./CoursesFolder/Jquery/JqueryCourse";
 import NotFound404 from "./NotFound404/NotFound404";
+import AngularCourse from "./CoursesFolder/Angular/AngularCourse";
 function App() {
   return (
     <div className="App">
@@ -39,6 +40,7 @@ function App() {
           <Route path='/courses/threejscourse' element={<ThreeJsCourse />}></Route>
           <Route path='/courses/web3jscourse' element={<Web3jsCourse />}></Route>
           <Route path='/courses/jquerycourse' element={<JqueryCourse />}></Route>
+          <Route path='/courses/angularcourse' element={<AngularCourse />}></Route>
           <Route path='/*' element={<NotFound404 />}></Route>
 
         </Routes>
