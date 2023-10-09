@@ -89,3 +89,9 @@ hr {
     margin: auto;
     font-family:'Courier New', Courier, monospace;
 }
+#copyTextBtn::before{
+content: "Copy";
+}
+#copyTextBtn:active:before{
+content: "Code Copied";
+}

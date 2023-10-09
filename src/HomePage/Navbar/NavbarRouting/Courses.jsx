@@ -13,7 +13,7 @@ const Courses = () => {
           <button onClick={() => {
             nv(item.cLink)
           }}>
-            <img id='topImageHorizontalBar' src={item.cImg} alt="" />
+            <img src={item.cImg} alt="" />
           </button>
         ))}
       </div>
@@ -34,7 +34,7 @@ const Courses = () => {
               <div className="col-md-7 textBlock">
                 {item.desc}
               </div>
-            </div>
+            </div>   
           ))
 
         }

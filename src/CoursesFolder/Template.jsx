@@ -1,26 +1,16 @@
 import React, { useState } from 'react'
 import './Template.css'
 const TempLate = (prop) => {
-    const [copyStatus, changeCopyStatus] = useState(Array(prop.props.length).fill('Copy'))
     const copyText = (index) => {
-        const newCopyStatus = [...copyStatus];
-        // newCopyStatus[index] = newCopyStatus[index] === "Copy" ?  "Code Copied":"Copy"
-        if (newCopyStatus[index] === "Copy") {
-            newCopyStatus[index] = "Code Copied"
-            var cText = document.getElementById("codeText");
-            const tempInput = document.createElement('input')
-            tempInput.value = cText.textContent;
+        var cText = document.getElementById(`codeText_${index}`);
+        const tempInput = document.createElement('input')
+        tempInput.value = cText.textContent;
 
-            document.body.appendChild(tempInput)
-            tempInput.select();
-            document.execCommand('copy');
-            document.body.removeChild(tempInput);
-            // alert("code copied")
-        }
-        else {
-            newCopyStatus[index] = "Copy"
-        }
-        changeCopyStatus(newCopyStatus);
+        document.body.appendChild(tempInput)
+        tempInput.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempInput);
+
     }
     return (
         <>
@@ -49,14 +39,13 @@ const TempLate = (prop) => {
                                                 <h5 style={{ color: "rgb(110, 110, 110)", padding: "1%", marginLeft: "2%", fontFamily: "sans-serief" }}>
                                                     <div className="codeDiv">
                                                         <button id='copyTextBtn' onClick={() => { copyText(subkey) }}>
-                                                            {copyStatus[subkey]}
+
                                                         </button>
-                                                        <pre id='codeText' >
+                                                        <pre class='codeText' id={`codeText_${subkey}`} >
                                                             {item2.example_code}
                                                         </pre>
                                                     </div>
                                                 </h5>
-
                                             </div>
                                         </>
                                     ))
@@ -72,3 +61,9 @@ const TempLate = (prop) => {
 }
 
 export default TempLate;
+                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                                          
