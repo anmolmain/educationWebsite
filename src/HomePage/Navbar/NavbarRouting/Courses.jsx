@@ -41,7 +41,9 @@ const Courses = () => {
 
 
       </div>
+      {window.scrollTo({ top: 0, behavior: 'smooth' })}
     </div>
+
   )
 }
 
