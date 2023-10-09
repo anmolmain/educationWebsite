@@ -85,7 +85,7 @@ var dataArr = [
     },
     {
         // cImg: "https://img.freepik.com/free-psd/3d-nft-icon-chain_629802-28.jpg?size=338&ext=jpg&ga=GA1.1.348035570.1694454835&semt=sph",
-        cImg:"https://www.bing.com/images/blob?bcid=qIqavBtk1ywGzbtBy9q7cA0miI6y.....4g",
+        cImg:"https://moralis.io/wp-content/uploads/2021/06/Blog-Web3js-1024x871.jpg",
         cName: "web3.JS",
         cLink: "web3jscourse",
         desc: "Web3.js is a fundamental technology that underpins the decentralized web, making it a crucial topic for anyone interested in the future of technology and blockchain. It serves as a bridge between traditional web applications and the blockchain, enabling developers to create decentralized applications (dApps) and interact with various blockchain networks like Ethereum. Understanding Web3.js empowers individuals to harness the potential of blockchain technology for various use cases, from creating smart contracts to building decentralized finance (DeFi) platforms and NFT marketplaces. As the world increasingly adopts blockchain, knowledge of Web3.js becomes an invaluable asset, making it an essential subject for those looking to stay ahead in the rapidly evolving digital landscape.        "
