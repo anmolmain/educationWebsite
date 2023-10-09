@@ -10,6 +10,7 @@ const TempLate = (prop) => {
             var cText = document.getElementById("codeText");
             const tempInput = document.createElement('input')
             tempInput.value = cText.textContent;
+
             document.body.appendChild(tempInput)
             tempInput.select();
             document.execCommand('copy');
@@ -27,7 +28,7 @@ const TempLate = (prop) => {
                 console.log(prop.props)
             } */}
             <div className="btnDiv">
-                <button id='moveToTopBtn' onClick={() => { window.scrollTo({top:0,behavior:'smooth'}) }}>
+                <button id='moveToTopBtn' onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }}>
                     <p>^</p></button>
             </div>
             {
@@ -65,6 +66,7 @@ const TempLate = (prop) => {
                     </div>
                 ))
             }
+            {window.scrollTo({ top: 0, behavior: 'smooth' })}
         </>
     )
 }
