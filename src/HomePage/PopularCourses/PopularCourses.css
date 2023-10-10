@@ -4,7 +4,23 @@
     /* margin-top: 5vh; */
     overflow-x: scroll;
     background-color: rgb(11, 43, 102);
+}
 
+.cardCourse button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.cardCourse button:active img {
+    transform: rotateY(360deg);
+    transition: 0.3s;
+}
+
+#belowBtn:active img {
+    transform: rotateY(360deg);
+    transition: 0.3s;
 }
 
 .HeadingDiv {
@@ -22,8 +38,6 @@
     box-shadow: 1px 1px 15px 5px rgb(47, 47, 47);
     /* border-radius: 15px; */
     margin-bottom: 3vh;
-    margin-left: 35px;
-    margin-right: 35px;
     min-width: 300px;
     min-height: 55 0px;
     scale: 0.9;

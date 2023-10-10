@@ -32,6 +32,12 @@
 
 }
 
+.cardBtn {
+    background-color: white;
+    outline: none;
+    border: none;
+}
+
 .textBlock {
     justify-content: center;
     align-items: center;
@@ -65,6 +71,7 @@
     margin: 1%;
     border-radius: 50%;
     transition: 0.3s;
+    scale: 0.9;
 }
 
 .scrollTemp img:hover {
@@ -75,29 +82,29 @@
 
 
 .scrollTemp::-webkit-scrollbar {
-    width: 50%;
-    height: 2px;
+    width: 50px;
+    height: 10px;
 }
 
 .scrollTemp::-webkit-scrollbar-thumb {
     background-color: rgb(38, 84, 162);
     border-radius: 50%;
-    width: 50%;
-    height: 2px;
+    width: 50px;
+    height: 10px;
 }
 
 .scrollTemp::-webkit-scrollbar-thumb:hover {
     background-color: rgb(10, 43, 102);
     border-radius: 50%;
-    width: 50%;
-    height: 2px;
+    width: 50px;
+    height: 10px;
 }
 
 .scrollTemp::-webkit-scrollbar-track {
-    background-color: #f1f1f1;
+    background-color: white;
     border-radius: 50%;
-    width: 50%;
-    height: 2px;
+    width: 50px;
+    height: 10px;
 }
 
 .scrollTemp button {
@@ -111,4 +118,27 @@
 .myBtn {
     background-color: rgb(11, 43, 102);
     /* border: 2px solid black; */
+}
+
+.scrollTemp button:active {
+    scale: 1.5;
+    transform: rotatey(360deg);
+    transition: 0.3s;
+}
+
+.cardBtn:active+.textBlock {
+    display: none;
+}
+
+.mainCDiv button:active .cardC img {
+    transform: scale(24);
+    transition: 1s;
+}
+
+#imgBelowBtn:active img{
+    transform: scale(24);
+    transition: 1s;
+}
+#imgBelowBtn:active+.textBlock {
+    display: none;
 }

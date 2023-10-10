@@ -28,6 +28,7 @@ const TempLate = (prop) => {
                             <div className="col-12">
                                 <p id='div1Text'>{item.topic_name}</p>
                                 <h4 style={{ marginLeft: "6%" }}>{item.topic_description}</h4>
+
                             </div>
 
                             <p style={{ fontFamily: 'Josefin Sans', marginTop: "3%", marginLeft: "7%" }}>
@@ -44,6 +45,7 @@ const TempLate = (prop) => {
                                                         <pre class='codeText' id={`codeText_${subkey}`} >
                                                             {item2.example_code}
                                                         </pre>
+
                                                     </div>
                                                 </h5>
                                             </div>
@@ -61,9 +63,8 @@ const TempLate = (prop) => {
 }
 
 export default TempLate;
-                                                                                                                                                                                                                                                                                                                                                                                          
-                                                                                                                                                                                                                                                                                                                                                                                          
-                                                                                                                                                                                                                                                                                                                                                                                          
-                                                                                                                                                                                                                                                                                                                                                                                          
-                                                                                                                                                                                                                                                                                                                                                                                          
-                                                                                                                                                                                                                                                                                                                                                                                          
+
+
+
+
+

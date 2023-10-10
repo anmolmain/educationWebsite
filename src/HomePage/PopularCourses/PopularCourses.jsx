@@ -11,12 +11,18 @@ const PopularCourses = (props) => {
             <div className='mainDivCourse'>
                 {dataArr2.map((item) => (
                     <div className="cardCourse">
-                        <img src={item.cImg} className='courseImg' alt="" />
-                        <hr /><p className="Ctitle">{item.cName}</p>
-                        <hr /><input type="button" onClick={() => {
+                        <button onClick={() => {
                             var x = item.cLink
                             nv('/courses/' + x)
-                        }} className='mybtn' value="Click" />
+                        }}>
+                            <img src={item.cImg} className='courseImg' alt="" />
+                            <hr /><p className="Ctitle">{item.cName}</p>
+                            <hr />
+                            <input type="button" onClick={() => {
+                                var x = item.cLink
+                                nv('/courses/' + x)
+                            }} className='mybtn' id="belowBtn" value="Click" />
+                        </button>
                     </div>
                 ))}
             </div>

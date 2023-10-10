@@ -9,6 +9,7 @@
 }
 .mynavBar li:hover{
     filter: blur(0px);
+    font-size: large;
     transition : 0.2s
 }
 
