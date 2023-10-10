@@ -3,6 +3,7 @@
     color: white;
 }
 
+
 .mynavBar:hover li {
     filter: blur(4px);
     transition : 0.2s

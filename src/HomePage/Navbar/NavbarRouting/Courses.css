@@ -120,25 +120,26 @@
     /* border: 2px solid black; */
 }
 
-.scrollTemp button:active {
+.scrollTemp button:focus {
     scale: 1.5;
     transform: rotatey(360deg);
     transition: 0.3s;
 }
 
-.cardBtn:active+.textBlock {
+.cardBtn:focus+.textBlock {
     display: none;
 }
 
-.mainCDiv button:active .cardC img {
+.mainCDiv button:focus .cardC img {
     transform: scale(24);
     transition: 1s;
 }
 
-#imgBelowBtn:active img{
+#imgBelowBtn:focus img {
     transform: scale(24);
     transition: 1s;
 }
-#imgBelowBtn:active+.textBlock {
+
+#imgBelowBtn:focus+.textBlock {
     display: none;
 }
