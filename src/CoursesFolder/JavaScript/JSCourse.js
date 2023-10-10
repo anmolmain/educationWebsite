@@ -7,6 +7,7 @@ const JSCourse = () => {
     return (
         <div>
             <Navbar />
+            <p className='topicName'>JavaScript Sheet</p>
             <TempLate props={javaScriptData} />
         </div>
     )

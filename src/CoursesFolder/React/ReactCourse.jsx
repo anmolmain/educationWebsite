@@ -6,6 +6,7 @@ const ReactCourse = () => {
   return (
     <div>
         <Navbar/>
+        <p className='topicName'>React Sheet</p>
         <TempLate props = {ReactData}/>
     </div>
   )

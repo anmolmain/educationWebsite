@@ -6,7 +6,9 @@ const CssCourse = () => {
     return (
         <>
             <Navbar />
-            <TempLate props = {cssTopics}/>
+            <p className='topicName'>CSS Sheet</p>
+
+            <TempLate props={cssTopics} />
         </>
     )
 }

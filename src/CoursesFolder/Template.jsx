@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Template.css'
 const TempLate = (prop) => {
     const copyText = (index) => {
@@ -28,7 +28,6 @@ const TempLate = (prop) => {
                             <div className="col-12">
                                 <p id='div1Text'>{item.topic_name}</p>
                                 <h4 style={{ marginLeft: "6%" }}>{item.topic_description}</h4>
-
                             </div>
 
                             <p style={{ fontFamily: 'Josefin Sans', marginTop: "3%", marginLeft: "7%" }}>

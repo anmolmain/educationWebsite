@@ -6,6 +6,7 @@ const MongoDbCourse = () => {
     return (
         <div>
             <Navbar />
+            <p className='topicName'>MongoDB Sheet</p>
             <TempLate props={MongoDbData} />
         </div>
     )

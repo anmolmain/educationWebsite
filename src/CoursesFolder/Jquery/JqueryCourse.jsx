@@ -7,6 +7,7 @@ const JqueryCourse = () => {
     return (
         <div>
             <Navbar />
+            <p className='topicName'>JQuery Sheet</p>
             <TempLate props={JqueryCourseData} />
         </div>
     )

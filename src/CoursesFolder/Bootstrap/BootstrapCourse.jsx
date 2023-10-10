@@ -7,6 +7,7 @@ const BootstrapCourse = () => {
     return (
         <div>
             <Navbar />
+            <p className='topicName'>Bootstrap Sheet</p>
             <TempLate props={BootstrapData} />
         </div>
     )

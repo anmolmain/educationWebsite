@@ -5,8 +5,9 @@ import AngularData from './AngularData'
 const AngularCourse = () => {
   return (
     <div>
-        <NavBar/>
-        <TempLate props={AngularData}/>
+      <NavBar />
+      <p className='topicName'>Angular Sheet</p>
+      <TempLate props={AngularData} />
     </div>
   )
 }

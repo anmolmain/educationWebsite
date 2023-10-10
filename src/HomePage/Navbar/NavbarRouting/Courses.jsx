@@ -3,6 +3,7 @@ import Navbar from '../Navbar'
 import { useNavigate } from 'react-router-dom'
 import dataArr from '../../../CoursesFolder/MainCourseData'
 import './Courses.css'
+// import {moveToRight} from '../../AdvSection/Adv'
 const Courses = () => {
   const nv = useNavigate();
   return (
@@ -16,6 +17,8 @@ const Courses = () => {
             <img src={item.cImg} alt="" />
           </button>
         ))}
+        {/* <button className="LeftScroll" onClick={moveToRight} style={{ border: "1px solid black", borderRadius: "10px", border: "none", outline: "none" }}>&lt;</button> */}
+        {/* <button className="rightScroll" onClick={} style={{ border: "1px solid black", borderRadius: "10px", border: "none", outline: "none" }}>&gt;</button> */}
       </div>
       <br />
       <div className="CoursesFolder">

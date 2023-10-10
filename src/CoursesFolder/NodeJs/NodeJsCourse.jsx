@@ -7,6 +7,7 @@ const NodeJsCourse = () => {
     return (
         <div>
             <Navbar />
+            <p className='topicName'>Node.JS Sheet</p>
             <TempLate props={NodeJsCourseData} />
         </div>
     )

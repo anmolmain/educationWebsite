@@ -7,6 +7,7 @@ const Web3jsCourse = () => {
     return (
         <div>
             <Navbar />
+            <p className='topicName'>Web3.JS Sheet</p>
             <TempLate props={Web3jsCourseData} />
         </div>
     )

@@ -49,6 +49,7 @@
 
 .DataSection {
     background-color: rgb(10, 43, 102);
+    margin-top: 0px;
     /* border: 2px solid black; */
 }
 
@@ -71,6 +72,7 @@
     color: rgb(49, 49, 49);
     border: 1px solid black;
     scale: 0.9;
+    margin-top: -15px;
 }
 
 hr {
@@ -82,16 +84,28 @@ hr {
     background-color: rgb(197, 196, 196);
     padding: 2% 0% 1% 3%;
 }
-#moveToTopBtn p{
+
+#moveToTopBtn p {
     text-align: center;
     justify-content: center;
     align-items: center;
     margin: auto;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
-#copyTextBtn::before{
-content: "Copy";
+
+#copyTextBtn::before {
+    content: "Copy";
 }
-#copyTextBtn:active:before{
-content: "Code Copied";
+
+#copyTextBtn:active:before {
+    content: "Code Copied";
+}
+
+.topicName {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    color: rgb(65, 65, 65);
+    background-color: rgb(10, 43, 102);
+    color: white;
 }

@@ -6,6 +6,7 @@ const ThreeJsCourse = () => {
     return (
         <div>
             <Navbar />
+            <p className='topicName'>Three.JS Sheet</p>
             <TempLate props={ThreeJsData} />
         </div>
     )

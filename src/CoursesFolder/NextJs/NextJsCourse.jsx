@@ -7,6 +7,7 @@ const NextJsCourse = () => {
     return (
         <div>
             <Navbar />
+            <p className='topicName'>Next.JS Sheet</p>
             <TempLate props = {NextjsCourseData}/>;
         </div>
     )

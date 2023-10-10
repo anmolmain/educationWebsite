@@ -6,6 +6,7 @@ const ExpressCourse = () => {
   return (
     <div>
         <Navbar/>
+        <p className='topicName'>HTML Sheet</p>
         <TempLate props = {htmlCourseData}/>
     </div>
   )
