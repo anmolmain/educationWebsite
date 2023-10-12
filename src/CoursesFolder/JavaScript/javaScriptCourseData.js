@@ -1,3 +1,4 @@
+export var subjectName = "Javascript"
 var javaScriptData = [
     {
         "topic_name": "Variables and Data Types",

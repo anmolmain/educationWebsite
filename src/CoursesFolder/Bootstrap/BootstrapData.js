@@ -1,3 +1,4 @@
+export var subjectName = "Bootstrap"
 var BootstrapData = [
     {
         "topic_name": "Bootstrap Typography",

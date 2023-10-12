@@ -1,4 +1,4 @@
-
+export var subjectName = "CSS"
 var cssTopics = [
     {
         "topic_name": "Selectors",

@@ -1,3 +1,4 @@
+export var subjectName = "JQuery"
 var JqueryCourseData = [
     {
         "topic_name": "Introduction to jQuery",

@@ -1,3 +1,4 @@
+export var subjectName = "Node.Js"
 var NodeJsCourseData = [
     {
         "topic_name": "Modules in Node.js",

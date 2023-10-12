@@ -1,3 +1,4 @@
+export var subjectName = "HTML"
 var htmlCourseData = [
   {
     "topic_name": "HTML Structure",
@@ -521,7 +522,7 @@ ctx.stroke();
       }
     ]
   },
-  
+
 
 ];
 

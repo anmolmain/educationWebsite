@@ -1,3 +1,4 @@
+export var subjectName = "Three.js"
 const ThreeJsData = [
     {
         "topic_name": "Introduction to Three.js",
@@ -337,6 +338,6 @@ scene.add(cube);
             }
         ]
     },
-    
+
 ];
 export default ThreeJsData;

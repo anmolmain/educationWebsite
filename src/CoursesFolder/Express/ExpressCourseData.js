@@ -1,3 +1,4 @@
+export var subjectName  = "Express"
 const ExpressCourseData = [
     {
         "topic_name": "Setting Up Express.js",

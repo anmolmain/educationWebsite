@@ -1,3 +1,4 @@
+export var subjectName = "Next.Js"
 const NextjsCourseData = [
     {
         "topic_name": "Next.js Overview",

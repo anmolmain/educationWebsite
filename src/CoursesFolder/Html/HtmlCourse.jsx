@@ -1,13 +1,12 @@
 import React from 'react'
 import Navbar from '../../HomePage/Navbar/Navbar'
 import TempLate from '../Template'
-import htmlCourseData from './htmlCourseData.js'
+import htmlCourseData, { subjectName } from './htmlCourseData.js'
 const ExpressCourse = () => {
   return (
     <div>
-        <Navbar/>
-        <p className='topicName'>HTML Sheet</p>
-        <TempLate props = {htmlCourseData}/>
+      <Navbar />
+      <TempLate props={htmlCourseData} sname={subjectName} />
     </div>
   )
 }

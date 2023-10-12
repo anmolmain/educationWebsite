@@ -1,3 +1,4 @@
+export var subjectName = "Web3.Js"
 var Web3jsCourseData = [
     {
         "topic_name": "Introduction to web3.js",

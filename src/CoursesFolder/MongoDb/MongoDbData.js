@@ -1,3 +1,4 @@
+export var subjectName = "Mongo DB"
 var MongoDbData = [
     {
         "topic_name": "Introduction to MongoDB",

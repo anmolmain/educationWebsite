@@ -1,3 +1,4 @@
+export var subjectName = "Angular";
 var AngularData = [
     {
         "topic_name": "Angular Overview",
