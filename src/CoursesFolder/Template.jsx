@@ -15,7 +15,7 @@ const TempLate = (prop) => {
     return (
         <>
             {/* {
-        // console.log(prop.sname);
+                console.log(prop.sname);
                 console.log(prop.props)
             } */}
             <div className="btnDiv">
@@ -23,16 +23,11 @@ const TempLate = (prop) => {
                     <p>^</p></button>
             </div>
             {
+                <p className='topicName' style={{ margin: "0px", padding: "0px" }}> {`${prop.sname} `}</p>
+            }
+            {
                 prop.props.map((item, key) => (
                     <div className="DataSection">
-                        <div className="row">
-                            <div className="col-2"></div>
-                            <div className="col-8">
-                            <p className='topicName'> {`${prop.sname} `}</p>
-                            </div>
-                            <div className="col-2"></div>
-                        </div>
-                        <hr />
                         <div className='mainDivLanding row'>
                             <div className="col-12">
                                 <p id='div1Text'>{item.topic_name}</p>
