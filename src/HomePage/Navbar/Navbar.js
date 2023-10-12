@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 
 const NavBar = () => {
     return (
+        <>
             <nav className="navbar navbar-expand-lg navbar-dark myClr">
                 <Link to='/' className="navbar-brand title " id='CSM' href="#">
                     <div>
@@ -48,6 +49,8 @@ const NavBar = () => {
                     </ul>
                 </div>
             </nav>
+            <hr style={{backgroundColor:"white",padding:"0px",margin:"0px"}}/>
+        </>
     );
 };
 

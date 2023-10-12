@@ -8,10 +8,12 @@ import Footer from './Footer/Footer.js'
 import Cara from './Cara/Cara.jsx'
 import PeopleReview from '../PeopleReviews/PeopleReview.jsx'
 import PopularCourseText from './PopularCourses/PopularCourseText.jsx'
+import CoursesScrollBar from './Navbar/NavbarRouting/CoursesScrollBar.jsx'
 const HomePage = () => {
   return (
     <div>
       <Navbar />
+      <CoursesScrollBar/>
       <LandingPage />
       <Adv />
       <Special />

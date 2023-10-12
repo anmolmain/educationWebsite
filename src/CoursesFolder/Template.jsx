@@ -1,5 +1,6 @@
 import React from 'react'
 import './Template.css'
+import CoursesScrollBar from '../HomePage/Navbar/NavbarRouting/CoursesScrollBar';
 const TempLate = (prop) => {
     const copyText = (index) => {
         var cText = document.getElementById(`codeText_${index}`);
@@ -18,12 +19,24 @@ const TempLate = (prop) => {
                 console.log(prop.sname);
                 console.log(prop.props)
             } */}
+            <CoursesScrollBar />
             <div className="btnDiv">
                 <button id='moveToTopBtn' onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }}>
                     <p>^</p></button>
             </div>
             {
-                <p className='topicName' style={{ margin: "0px", padding: "0px" }}> {`${prop.sname} `}</p>
+                <div style={{ backgroundColor: "rgb(10,43,102)" }}>
+                    <br /><br />
+                    <div className="row" style={{ backgroundColor: "rgb(10,43,102)", display: "flex" }}>
+                        <p className='col-12  topicName'> {`${prop.sname} Sheet`}</p>
+                        {/* <div className="col-2" style={{display:"flex"}}>
+                        <button style={{margin:"auto",width:"30%",borderRadius:"50%",backgroundColor:"rgb(10,43,102",outline:"none",border:"none"}}>
+                            <img id='nightModeBtn' style={{width:"120%",borderRadius:"50%"}} src="https://img.icons8.com/?size=100&id=15348&format=png" alt="" />
+                            </button>
+                    </div> */}
+                        <hr style={{ width: "90%" }} />
+                    </div >
+                </div>
             }
             {
                 prop.props.map((item, key) => (

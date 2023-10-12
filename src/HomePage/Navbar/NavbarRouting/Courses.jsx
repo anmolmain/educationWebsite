@@ -3,24 +3,17 @@ import Navbar from '../Navbar'
 import { useNavigate } from 'react-router-dom'
 import dataArr from '../../../CoursesFolder/MainCourseData'
 import './Courses.css'
+import CoursesScrollBar from './CoursesScrollBar'
 // import {moveToRight} from '../../AdvSection/Adv'
 const Courses = () => {
   const nv = useNavigate();
   return (
     <div>
       <Navbar />
-      <div className="scrollTemp">
-        {dataArr.map((item) => (
-          <button onClick={() => {
-            nv(item.cLink)
-          }}>
-            <img src={item.cImg} alt="" />
-          </button>
-        ))}
-        {/* <button className="LeftScroll" onClick={moveToRight} style={{ border: "1px solid black", borderRadius: "10px", border: "none", outline: "none" }}>&lt;</button> */}
-        {/* <button className="rightScroll" onClick={} style={{ border: "1px solid black", borderRadius: "10px", border: "none", outline: "none" }}>&gt;</button> */}
-      </div>
-      <br />
+      <CoursesScrollBar />
+      {/* <button className="LeftScroll" onClick={moveToRight} style={{ border: "1px solid black", borderRadius: "10px", border: "none", outline: "none" }}>&lt;</button> */}
+      {/* <button className="rightScroll" onClick={} style={{ border: "1px solid black", borderRadius: "10px", border: "none", outline: "none" }}>&gt;</button> */}
+
       <div className="CoursesFolder">
         {
           dataArr.map((item) => (

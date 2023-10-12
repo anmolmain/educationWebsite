@@ -15,6 +15,7 @@
     /* background-position: -20px -10px; */
 }
 
+
 .btnDiv {
     position: fixed;
     transform: translate(-50%, -50%);
@@ -102,7 +103,8 @@ hr {
 }
 
 .topicName {
-    text-align: center;
+    text-align: left;
+    padding-left: 6%;
     font-weight: 700;
     font-size: 3rem;
     color: rgb(65, 65, 65);
