@@ -28,7 +28,7 @@ const TempLate = (prop) => {
                         <div className="row">
                             <div className="col-2"></div>
                             <div className="col-8">
-                            <p className='topicName'> {`${prop.sname} `}Sheet</p>
+                            <p className='topicName'> {`${prop.sname} `}</p>
                             </div>
                             <div className="col-2"></div>
                         </div>
