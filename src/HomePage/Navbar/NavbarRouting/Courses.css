@@ -93,7 +93,7 @@
 
 .textBlock::-webkit-scrollbar {
     width: 6px;
-    height: 1px;
+    height: 0px;
 }
 
 
@@ -122,33 +122,60 @@
     box-shadow: 4px 4px 100px rgb(69, 120, 182);
 
 }
-
-
 .scrollTemp::-webkit-scrollbar {
     width: 50px;
-    height: 10px;
+    height: 8px;
 }
 
 .scrollTemp::-webkit-scrollbar-thumb {
     background-color: white;
     border-radius: 50%;
     width: 50px;
-    height: 10px;
+    height: 8px;
 }
 
 .scrollTemp::-webkit-scrollbar-thumb:hover {
     background-color: white;
     border-radius: 50%;
     width: 50px;
-    height: 10px;
+    height: 8px;
 }
 
 .scrollTemp::-webkit-scrollbar-track {
     background-color: rgb(10, 43, 102);
     border-radius: 50%;
     width: 50px;
-    height: 10px;
+    height: 8px;
 }
+
+@media screen and (max-width:800px) {
+    .scrollTemp::-webkit-scrollbar {
+        width: 50px;
+        height: 0px;
+    }
+
+    .scrollTemp::-webkit-scrollbar-thumb {
+        background-color: white;
+        border-radius: 50%;
+        width: 50px;
+        height: 0px;
+    }
+
+    .scrollTemp::-webkit-scrollbar-thumb:hover {
+        background-color: white;
+        border-radius: 50%;
+        width: 50px;
+        height: 0px;
+    }
+
+    .scrollTemp::-webkit-scrollbar-track {
+        background-color: rgb(10, 43, 102);
+        border-radius: 50%;
+        width: 50px;
+        height: 0px;
+    }
+}
+
 
 .scrollTemp button {
     outline: none;
