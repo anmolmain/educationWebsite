@@ -12,11 +12,11 @@ const DigitalNotes = () => {
     { topic: "MONGODB" },
     { topic: "JQUERY" },
     { topic: "REACT" },
-    { topic: "EXPRESSJS" },
-    { topic: "NODEJS" },
+    { topic: "EXPRESS" },
+    { topic: "NODE" },
     { topic: "ANGULAR" },
-    { topic: "NEXTJS" },
-    { topic: "WEB3JS" },
+    { topic: "NEXT" },
+    { topic: "WEB3" },
   ]
   const nv = useNavigate()
   function checkAndDownload(mitem) {
