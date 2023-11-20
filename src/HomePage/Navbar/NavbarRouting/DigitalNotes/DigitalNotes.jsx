@@ -25,7 +25,7 @@ const DigitalNotes = () => {
     nv("/"+"courses/"+mitem+"course")
     setTimeout(() => {
       window.print()
-    }, 500);
+    }, 100);
     
   }
   return (
