@@ -61,7 +61,6 @@
 #LandingPageManPic {
     /* opacity: 0; */
     animation: fadeInOut 2s linear;
-
 }
 
 @keyframes fadeInOut {

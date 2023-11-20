@@ -37,6 +37,11 @@ const NavBar = () => {
                             </Link>
                         </li>
                         <li className="nav-item active">
+                            <Link className="nav-link active" to="/codeeditor">
+                                <p className='itemInside'>Code Editor</p>
+                            </Link>
+                        </li>
+                        <li className="nav-item active">
                             <Link className="nav-link active" to="/digitalNotes">
                                 <p className='itemInside'>Digital Notes</p>
                             </Link>

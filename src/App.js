@@ -1,7 +1,7 @@
 import HomePage from "./HomePage/HomePage";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Courses from "./HomePage/Navbar/NavbarRouting/Courses";
-import DigitalNotes from "./HomePage/Navbar/NavbarRouting/DigitalNotes";
+import DigitalNotes from "./HomePage/Navbar/NavbarRouting/DigitalNotes/DigitalNotes.jsx";
 import Contact from "./HomePage/Navbar/NavbarRouting/Contact";
 import './App.css'
 import HtmlCourse from "./CoursesFolder/Html/HtmlCourse";
@@ -18,6 +18,7 @@ import Web3jsCourse from "./CoursesFolder/Web3js/Web3jsCourse";
 import JqueryCourse from "./CoursesFolder/Jquery/JqueryCourse";
 import NotFound404 from "./NotFound404/NotFound404";
 import AngularCourse from "./CoursesFolder/Angular/AngularCourse";
+import CodeEditor from "./HomePage/Navbar/NavbarRouting/CodeEditor";
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,7 @@ function App() {
           <Route path='/' element={<HomePage />}></Route>/
           <Route path='/Home' element={<HomePage />}></Route>
           <Route path='/Courses' element={<Courses />}></Route>
+          <Route path='/codeeditor' element={<CodeEditor />}></Route>
           <Route path='/digitalNotes' element={<DigitalNotes />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/courses/htmlcourse' element={<HtmlCourse />}></Route>
@@ -42,7 +44,6 @@ function App() {
           <Route path='/courses/jquerycourse' element={<JqueryCourse />}></Route>
           <Route path='/courses/angularcourse' element={<AngularCourse />}></Route>
           <Route path='*' element={<NotFound404 />}></Route>
-
         </Routes>
       </BrowserRouter>
     </div>
