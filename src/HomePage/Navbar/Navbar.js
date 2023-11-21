@@ -9,7 +9,7 @@ const NavBar = () => {
             <nav className="navbar navbar-expand-lg navbar-dark myClr">
                 <Link to='/' className="navbar-brand title " id='CSM' href="#">
                     <div>
-                        <p className='itemInside'>Cheat Sheet Mania</p>
+                        <p className='itemInside'>Crisp Sheet Mania</p>
                         <p className='mini'>... Believe in Qulaity</p>
                     </div>
                 </Link>

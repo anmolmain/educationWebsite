@@ -14,7 +14,7 @@ export const LandingPage = () => {
                             <img className='landingPageLogoPic' src={footerLogo} alt="" />
                         </div>
                         <hr className='myHrTag' style={{ width: "50%", }} />
-                        <p id="div1TMiniext">Welcome to our Cheat sheat mania! We provide concise, expertly crafted cheatsheets for a multitude of technologies. Whether you're a newbie or a seasoned pro, our cheatsheets simplify learning and coding. Covering HTML, CSS, JavaScript, React, and more, our quick references are your go-to resources. Elevate your skills, streamline development, and build stellar web apps. Explore our cheatsheets to master tech effortlessly!</p>
+                        <p id="div1TMiniext">Welcome to our Crisp sheat mania! We provide concise, expertly crafted Crispsheets for a multitude of technologies. Whether you're a newbie or a seasoned pro, our Crispsheets simplify learning and coding. Covering HTML, CSS, JavaScript, React, and more, our quick references are your go-to resources. Elevate your skills, streamline development, and build stellar web apps. Explore our Crispsheets to master tech effortlessly!</p>
                     </div>
 
                 </div>

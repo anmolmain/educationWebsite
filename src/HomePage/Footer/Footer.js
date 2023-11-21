@@ -25,7 +25,7 @@ const Footer = () => {
                         </p>
                         <hr className='myHrTag' />
                         <p className="AboutUsTextFooter">
-                            At CheatSheet Mania, we are committed to fostering a lifelong love for learning. Our mission is to empower individuals of all ages and backgrounds to pursue their educational goals and unlock their full potential.
+                            At CrispSheet Mania, we are committed to fostering a lifelong love for learning. Our mission is to empower individuals of all ages and backgrounds to pursue their educational goals and unlock their full potential.
                         </p>
                     </div>
                     <div className="col-1">
@@ -71,7 +71,7 @@ const Footer = () => {
 
                     </div>
                     <div className="bottomRowc row">
-                        <div className="col-12 bottomLayer">Copyright @{tYear} CheatSheet Mania (dummyWebsite)</div>
+                        <div className="col-12 bottomLayer">Copyright @{tYear} CrispSheet Mania (dummyWebsite)</div>
                     </div>
                 </div>
             </div>
