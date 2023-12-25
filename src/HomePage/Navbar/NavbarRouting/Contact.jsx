@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <form action="https://formsubmit.co/eac40862ec6626ce75fb03a5cb6b4188" method="POST">
+      <form action="https://formsubmit.co/1429harjitsingh@gmail.com" method="POST">
         <div className="bg">
           <div className="MainDivContact">
             <h1>Contact/Report</h1>
