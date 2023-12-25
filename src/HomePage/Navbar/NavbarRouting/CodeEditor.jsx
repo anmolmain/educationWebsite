@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import NavBar from '../Navbar';
 
 const CodeEditor = () => {
-  const [code, setCode] = useState("console.log('Anmol main @ B.Tech CSE')");
+  const [code, setCode] = useState("console.log('Let's code in Javascript')");
 
   const runCode = () => {
   const outputFrame = document.getElementById('output');
